@@ -21,29 +21,15 @@ public class Main {
 	// write your code her
         Scanner scanner = new Scanner(System.in);
         while (true){
-            System.out.println("Введи Количество каллорий");
+            System.out.println("Введи кол-во повторений");
             String result = scanner.nextLine();
             if ("exit".equals(result)) {
                 System.out.println("Пока");
                 return;
             }
-            int energy =Integer.valueOf(result);
-            switch (energy){
-                case 100:
-                    System.out.println("Apple");
-                    break;
-                case 300:
-                    System.out.println("Meat");
-                    break;
-                case 2000:
-                    System.out.println("BIG Burger");
-                    break;
-                case -100:
-                    System.out.println("Go Training");
-                    break;
-                default:
-                    System.out.println("Diet");
-                    break;
+            int count =Integer.valueOf(result);
+            for (int i = 1; i <= count ; i++) {
+                System.out.println("Прыжок "+i);
             }
 
 
