@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 public class Main {
 
-   /* public static  test1(){
-
+    public static final void  test1(){
+        return;
     }
-    public static  test2(int a, String s){
-        System.out.println("a:"+a"; s:"+s);
+    public static final void test2(int a, String s){
+        System.out.println("a:"+a+" s:"+s);
     }
-    public static  test3(){
+    public  static final void test3(){
+        return;
+    }
 
-    }*/
-    long a=1l;
+    //long a=1l;
 
 
 
@@ -27,10 +28,13 @@ public class Main {
                 System.out.println("Пока");
                 return;
             }
-            int count =Integer.valueOf(result);
-            for (int i = 1; i <= count ; i++) {
-                System.out.println("Прыжок "+i);
-            }
+            test2(5,"ss");
+
+
+           // int count =Integer.valueOf(result);
+            //for (int i = 1; i <= count ; i++) {
+             //   System.out.println("Прыжок "+i);
+
 
 
 
