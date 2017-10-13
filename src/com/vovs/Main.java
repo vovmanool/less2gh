@@ -28,7 +28,7 @@ public class Main {
                 System.out.println("Пока");
                 return;
             }
-            test2(5,"ss");
+            test2(5,"ss3");
 
 
            // int count =Integer.valueOf(result);
